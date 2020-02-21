@@ -230,9 +230,11 @@ button {
 	padding-right: 50px;
 }
 
+/* bottom-content class*/
 .bottom-content {
-	margin: auto;
-	width: 100%;
+	/* margin: auto;
+	width: 100%; */
+	display: flex;
 }
   
 .services {
