@@ -176,6 +176,8 @@ button {
 
 	/* refactor to flex */
 	display: flex;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 .features {
@@ -188,13 +190,10 @@ button {
 	width: 500px; */ 
 
 	/* refactor to flex */
-	display: flex;
-	width: 500px;
+	width: 485px;
 	flex-direction: column;
 	margin: auto;
 	padding-left: 25px;
-	border: 1px solid red;
-
 }
 
 .about-content {
@@ -207,7 +206,8 @@ button {
 	width: 470px; */  
 
 	/* refactor to flex */
-	width: 470px;
+	
+	width: 485px;
 	flex-direction: column;
 
 }
