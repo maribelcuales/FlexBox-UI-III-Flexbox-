@@ -170,18 +170,31 @@ button {
   	margin: auto;
 }
 
+/* top-content class */
 .top-content {
-	margin: auto;
+	/* margin: auto; */
+
+	/* refactor to flex */
+	display: flex;
 }
 
 .features {
-	display: inline-block;
+	/*display: inline-block;
 	position: relative;
 	margin: auto;
 	padding-left: 50px;
 	padding-top: 40px;
 	padding-bottom: 40px;
-	width: 500px; 
+	width: 500px; */ 
+
+	/* refactor to flex */
+	display: flex;
+	width: 500px;
+	flex-direction: column;
+	margin: auto;
+	padding-left: 40px;
+	border: 1px solid red;
+
 }
 
 .about-content {
@@ -192,6 +205,9 @@ button {
 	padding-bottom: 40px;
 	padding-left: 30px;
 	width: 470px;  
+
+	/* refactor to flex */
+
 }
 
 .middle-img {
@@ -201,6 +217,9 @@ button {
 	padding-right: 50px;
 	padding-bottom: 40px;
 	width: 100%;
+
+	/* refactor to flex */
+
 }
 
 .bottom-content {
