@@ -192,21 +192,23 @@ button {
 	width: 500px;
 	flex-direction: column;
 	margin: auto;
-	padding-left: 40px;
+	padding-left: 25px;
 	border: 1px solid red;
 
 }
 
 .about-content {
-	display: inline-block;
+	/*display: inline-block;
 	position: relative;
 	margin: auto;
 	padding-top: 40px;
 	padding-bottom: 40px;
 	padding-left: 30px;
-	width: 470px;  
+	width: 470px; */  
 
 	/* refactor to flex */
+	width: 470px;
+	flex-direction: column;
 
 }
 
