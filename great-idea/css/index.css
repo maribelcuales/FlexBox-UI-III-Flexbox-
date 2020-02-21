@@ -282,7 +282,7 @@ button {
 	*/ 
 
 	/* refactor to display flex */
-
+	margin-right: 40px;
 	border: 1px solid blue;
 }
 
