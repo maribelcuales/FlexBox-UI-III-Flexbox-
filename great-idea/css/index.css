@@ -294,7 +294,11 @@ button {
 	padding-bottom: 40px; */ 
 
 	/* refactor to display flex */
-
+	display: flex;
+	flex-direction: column;
+	margin-left: 50px;
+	margin-top: 40px;
+	width: 200px;
   }
   
 .contact .number {
