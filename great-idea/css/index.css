@@ -193,7 +193,7 @@ button {
 	width: 485px;
 	flex-direction: column;
 	margin: auto;
-	padding-left: 25px;
+	padding-left: 40px;
 }
 
 .about-content {
@@ -206,22 +206,28 @@ button {
 	width: 470px; */  
 
 	/* refactor to flex */
-	
 	width: 485px;
 	flex-direction: column;
-
+	margin: auto;
+	padding-right: 15px;
 }
 
+/* middle-image */
+
 .middle-img {
-	display: inline-block;
+	/* display: inline-block;
 	margin: auto;
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-bottom: 40px;
-	width: 100%;
+	width: 100%; */
 
 	/* refactor to flex */
-
+	display: flex;
+	margin: auto;
+	width: 100%;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 .bottom-content {
