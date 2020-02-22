@@ -71,6 +71,7 @@ h1, h2, h3, h4, h5 {
 	margin: auto;
 	position: relative;
 	min-width: 300px;
+	background: yellow;
 }                        
   
 /* nav class */
@@ -312,3 +313,17 @@ footer {
 }
 
 /* CSS for services.html */
+
+.services-header {
+	display: flex;
+	background: lavenderblush;
+	flex-direction: column;
+}
+
+.services-header-img {
+	display: flex;
+	margin: auto;
+	width: 100%;
+	padding-left: 50px;
+	padding-right: 50px;
+}
