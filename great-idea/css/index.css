@@ -149,7 +149,7 @@ header h1 {
 	margin-left: 100px;
 }
 
-button {
+.get-started-button {
   	position: absolute;
   	left: 220px;
   	top: 520px;
@@ -400,7 +400,7 @@ footer {
 
 .digital-design {
 	width: 500px;
-	height: 200px;
+	height: 300px;
 	padding: 30px;
 	margin-right: 40px;
 	background: #F4F3F4;
