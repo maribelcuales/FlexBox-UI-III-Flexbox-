@@ -378,7 +378,7 @@ footer {
 .services-page-break {
 	border-top: 2px solid gray;
 	width: 92.5%;
-	margin: auto;
+	margin-left: 40px;
 	padding-left: 40px;
 	padding-right: 40px;
 }
@@ -390,7 +390,6 @@ footer {
 	padding-right: 40px;
 	padding-top: 40px;
 	padding-bottom: 40px;
-	background: yellow;
 }
 
 /* services-content-top class */
@@ -433,6 +432,26 @@ footer {
 
 .services-content-middle {
 	display: flex;
+	margin-top: 40px;
+}
+
+.digital-marketing {
+	width: 500px;
+	height: 260px;
+	padding: 30px;
+	margin-right: 40px;
+	line-height: 20px;
+	background: #F4F3F4;
+	border: 1.5px solid gray;
+}
+
+.web-dev {
+	width: 500px;
+	height: 260px;
+	padding: 30px;
+	line-height: 20px;
+	background: #F4F3F4;
+	border: 1.5px solid gray;
 }
 
 
@@ -441,7 +460,30 @@ footer {
 
 .services-content-bottom {
 	display: flex;
+	margin-top: 40px;
 }
+
+.ios-dev {
+	width: 500px;
+	height: 260px;
+	padding: 30px;
+	margin-right: 40px;
+	line-height: 20px;
+	background: #F4F3F4;
+	border: 1.5px solid gray;
+}
+
+.android {
+	width: 500px;
+	height: 260px;
+	padding: 30px;
+	line-height: 20px;
+	background: #F4F3F4;
+	border: 1.5px solid gray;
+}
+
+
+
 
 
 
