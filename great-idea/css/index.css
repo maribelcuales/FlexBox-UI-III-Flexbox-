@@ -77,7 +77,6 @@ h1, h2, h3, h4, h5 {
 .navigation {
 	display: flex;
 	padding: 40px;
-	background: yellow;
 }
 
 .navigation a {
@@ -314,9 +313,7 @@ footer {
 
 /* CSS for services.html */
 
-
 /* services-nav class */
-
 .services-nav {
 	display: flex;
 	padding-top: 20px;
@@ -367,7 +364,6 @@ footer {
 	padding-top: 30px;
 	padding-left: 40px;
 	padding-right: 40px;
-	border: 1px solid blue;
 }
 
 .services-header p {
@@ -376,5 +372,19 @@ footer {
 	padding-left: 40px;
 	padding-right: 40px;
 	text-align: justify;
-	border: 1px solid blue;
+}
+
+/* services-page-break class */
+
+.services-page-break {
+	border-top: 2px solid gray;
+	width: 92.5%;
+	margin: auto;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.services-content {
+	background: yellow;
+	margin-top: 0px;
 }
