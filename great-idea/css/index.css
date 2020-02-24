@@ -314,11 +314,13 @@ footer {
 
 /* CSS for services.html */
 
+
 /* services-nav class */
+
 .services-nav {
 	display: flex;
 	padding-top: 20px;
-	padding-left: 40px;
+	padding-left: 30px;
 	padding-right: 40px;
 }
 
@@ -335,32 +337,25 @@ footer {
 }
 
 .logo {
-  	/*display: inline-block; 
-  	position: relative;
-  	top: 15px;
-  	padding-left: 50px;
-	height: 40px; */
-	/* refactor inline-block to flex */
 	display: flex;  
 	justify-content: flex-end;
 	height: 40px;
 }
 
-/* Header class */ 
+/* services-header class */ 
 
 .services-header {
 	display: flex;
 	flex-direction: column;
 	background: lavenderblush;
-
 }
 
 .services-header-img {
 	display: flex;
 	margin-top: 0px;
 	width: 100%;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
 .services-header h1 {
@@ -370,15 +365,16 @@ footer {
 	margin: auto;
 	flex-direction: row;
 	padding-top: 30px;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 40px;
+	padding-right: 40px;
 	border: 1px solid blue;
 }
 
 .services-header p {
 	margin: auto;
 	padding-top: 20px;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-align: justify;
 	border: 1px solid blue;
 }
