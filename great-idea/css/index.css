@@ -388,7 +388,45 @@ footer {
 .services-content {
 	padding-left: 40px;
 	padding-right: 40px;
-	display: flex;
+	padding-top: 40px;
+	padding-bottom: 40px;
 	background: yellow;
 }
+
+.services-content-top {
+	display: flex;
+	justify-content: space-between;
+}
+
+.digital-design {
+	width: 500px;
+	height: 200px;
+	padding: 30px;
+	margin-right: 40px;
+	background: #F4F3F4;
+	border: 2px solid gray;
+}
+
+.ux-ui {
+	width: 500px;
+	height: 200px;
+	padding: 20px;
+	border: 1px solid blue;
+}
+
+
+.services-content-middle {
+
+}
+
+.services-content-bottom {
+
+}
+
+
+
+
+
+
+
 
