@@ -346,12 +346,13 @@ footer {
 	height: 40px;
 }
 
-
+/* Header class */ 
 
 .services-header {
 	display: flex;
 	flex-direction: column;
 	background: lavenderblush;
+
 }
 
 .services-header-img {
@@ -360,4 +361,14 @@ footer {
 	width: 100%;
 	padding-left: 50px;
 	padding-right: 50px;
+}
+
+.services-header h1 {
+	width: 20%;
+	height: 20%;
+	font-size: 20px;
+	align-self: flex-start;
+	border: 1px solid blue;
+	
+
 }
