@@ -71,13 +71,13 @@ h1, h2, h3, h4, h5 {
 	margin: auto;
 	position: relative;
 	min-width: 300px;
-	background: yellow;
 }                        
   
 /* nav class */
 .navigation {
 	display: flex;
 	padding: 40px;
+	background: yellow;
 }
 
 .navigation a {
@@ -314,15 +314,49 @@ footer {
 
 /* CSS for services.html */
 
+/* services-nav class */
+.services-nav {
+	display: flex;
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.services-nav a {
+	display: flex;
+	justify-content: space-between;
+	text-decoration: none;
+	width: 100%;
+  	color: #939393;
+  	font-size: 14px; 
+  	font-weight: 50px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.logo {
+  	/*display: inline-block; 
+  	position: relative;
+  	top: 15px;
+  	padding-left: 50px;
+	height: 40px; */
+	/* refactor inline-block to flex */
+	display: flex;  
+	justify-content: flex-end;
+	height: 40px;
+}
+
+
+
 .services-header {
 	display: flex;
-	background: lavenderblush;
 	flex-direction: column;
+	background: lavenderblush;
 }
 
 .services-header-img {
 	display: flex;
-	margin: auto;
+	margin-top: 0px;
 	width: 100%;
 	padding-left: 50px;
 	padding-right: 50px;
