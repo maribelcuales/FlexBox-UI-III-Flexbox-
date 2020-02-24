@@ -344,7 +344,6 @@ footer {
 .services-header {
 	display: flex;
 	flex-direction: column;
-	background: lavenderblush;
 }
 
 .services-header-img {
@@ -361,7 +360,7 @@ footer {
 	font-size: 30px;
 	margin: auto;
 	flex-direction: row;
-	padding-top: 30px;
+	padding-top: 50px;
 	padding-left: 40px;
 	padding-right: 40px;
 }
@@ -384,7 +383,12 @@ footer {
 	padding-right: 40px;
 }
 
+/* services-content class */
+
 .services-content {
+	padding-left: 40px;
+	padding-right: 40px;
+	display: flex;
 	background: yellow;
-	margin-top: 0px;
 }
+
