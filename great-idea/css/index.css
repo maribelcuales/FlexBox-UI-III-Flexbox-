@@ -376,5 +376,9 @@ footer {
 }
 
 .services-header p {
+	margin: auto;
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
 	border: 1px solid blue;
 }
